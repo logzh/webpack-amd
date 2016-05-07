@@ -6,7 +6,9 @@
     "start": "webpack-dev-server --devtool eval --progress --hot --colors --content-base public"
   },
   "dependencies": {
-    "jquery": "^1.11.3"
+    "jquery": "^1.11.3",
+    "koa": "^1.2.0",
+    "koa-static": "^2.0.0"
   },
   "devDependencies": {
     "css-loader": "^0.23.0",

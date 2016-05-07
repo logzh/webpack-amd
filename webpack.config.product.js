@@ -28,7 +28,6 @@ module.exports = {
     ]
   },
   plugins: [
-    commonsPlugin,
-    new webpack.HotModuleReplacementPlugin()
+    commonsPlugin
   ]
 };
